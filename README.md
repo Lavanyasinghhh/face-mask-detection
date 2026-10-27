@@ -4,32 +4,6 @@ A real-time object detector that finds faces in an image and classifies each one
 
 I worked on face-mask detection during my ML internship at Audax Labs. This repo is my own end-to-end rebuild on a public dataset: data conversion, training, evaluation on a held-out test set, and deployment as an API.
 
-<!-- After training, add a sample prediction: ![Example](docs/pred_example.jpg) -->
-
-## Results
-
-Evaluated on a held-out **test set** (15% of images, never used for training or model selection):
-
-<!-- Fill in from step 4 of notebooks/train_colab.ipynb -->
-
-| Metric | Score |
-|---|---|
-| mAP@0.5 | _..._ |
-| mAP@0.5:0.95 | _..._ |
-| Precision | _..._ |
-| Recall | _..._ |
-
-| Class | AP@0.5 |
-|---|---|
-| with_mask | _..._ |
-| without_mask | _..._ |
-| mask_weared_incorrect | _..._ |
-
-![Training curves](docs/training_curves.png)
-![Confusion matrix](docs/confusion_matrix.png)
-
-**Observations:** _(write after training, e.g. which class is weakest and why. `mask_weared_incorrect` has far fewer examples than the other classes, so it is the hardest to learn.)_
-
 ## How it works
 
 1. **Data conversion** (`src/voc_to_yolo.py`)
