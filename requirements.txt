@@ -1,0 +1,7 @@
+ultralytics>=8.2
+fastapi>=0.110
+uvicorn[standard]
+python-multipart
+opencv-python-headless
+numpy
+httpx  # for tests
