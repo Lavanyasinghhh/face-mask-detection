@@ -1,5 +1,7 @@
 # Face mask detection with YOLOv8 and FastAPI
 
+[![tests](https://github.com/Lavanyasinghhh/face-mask-detection/actions/workflows/tests.yml/badge.svg)](https://github.com/Lavanyasinghhh/face-mask-detection/actions/workflows/tests.yml)
+
 A real-time object detector that finds faces in an image and classifies each one as **mask**, **no mask** or **mask worn incorrectly**. The model is fine-tuned YOLOv8 and is served through a FastAPI REST API, packaged with Docker.
 
 I worked on face-mask detection during my ML internship at Audax Labs. This repo is my own end-to-end rebuild on a public dataset: data conversion, training, evaluation on a held-out test set, and deployment as an API.
