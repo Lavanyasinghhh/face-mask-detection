@@ -1,0 +1,6 @@
+# Lightweight dependencies for running the tests (no PyTorch/YOLO needed).
+fastapi>=0.110
+httpx
+python-multipart
+opencv-python-headless
+numpy
